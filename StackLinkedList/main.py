@@ -1,4 +1,3 @@
-from ast import slice
 
 from StackLinkedList.SLinkedList import SLinkedList
 from StackLinkedList.SNode import SNode
