@@ -24,9 +24,9 @@ class BinaryTree:
     def postorder(self, node):
         if node is None:
             return
+        self.postorder(node.left)
         self.postorder(node.right)
         print("Data value {}".format(node.data))
-        self.postorder(node.left)
 
     def labelWiseTransversal(self, node):
         if node is None:
