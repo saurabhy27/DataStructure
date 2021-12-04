@@ -43,7 +43,7 @@ if __name__ == '__main__':
     # print(binarySearchTree.smallestAndLargestKey(root))
     print("Insert a new node ")
     # node6 = BNode(6)
-    # root = binarySearchTree.insert(root, node6)
+    root = binarySearchTree.insert(root, node6)
     # binarySearchTree.labelWiseTransversal(root)
     print("Delete a Node ")
     root = binarySearchTree.delete(root, node2.data)
